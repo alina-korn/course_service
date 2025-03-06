@@ -169,3 +169,67 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Зависимости
+site-packages/
+*.lock 
+
+# Логи и временные файлы
+*.log
+*.log.*
+*.tmp
+temp/
+
+# Базы данных (локальные файлы, если есть)
+*.db
+*.sqlite3
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Секреты и конфиги
+.env  
+*.pem
+*.key
+*.cert
+secrets/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Docker (если используешь)
+Dockerfile.local
+*.dockerignore
+docker-compose.override.yml
+
+# Тестовые файлы
+coverage/
+.coverage
+.tox/
+nosetests.xml
+pytest_cache/
